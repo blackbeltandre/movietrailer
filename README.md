@@ -1,2 +1,2 @@
 # movie
-Android developer fast track by udacity (project 1)
+Android developer fast track by udacity (project 2)
