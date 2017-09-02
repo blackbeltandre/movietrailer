@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tulisandigital.movie">
+    <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.AppMovie"
+        android:allowBackup="true"
+        android:icon="@drawable/iconudacity"
+        android:label="@string/UDACITY"
+        android:roundIcon="@drawable/iconudacity"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MovieActivity"
+        android:label="@string/UDACITY"
+            android:parentActivityName=".activity.MovieActivity"></activity>
+        <activity android:name=".activity.RatedActivity"
+            android:label="@string/UDACITY"></activity>
+        <activity android:name=".activity.DetailMovieActivity"
+        android:label="@string/detail_movie"
+            android:parentActivityName=".activity.MovieActivity"></activity>
+    </application>
+
+</manifest>

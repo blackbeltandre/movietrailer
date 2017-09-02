@@ -1,2 +1,2 @@
-# movietrailer
-Stage 2 udacity
+# movie
+Android developer fast track by udacity (project 1)
